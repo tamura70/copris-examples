@@ -14,6 +14,7 @@ import $cp.`copris-all-v2-3-1`
 import jp.kobe_u.copris._
 import dsl._
 
+init
 int('x, 1, 15)
 int('y, 1, 15)
 int('z, 1, 15)

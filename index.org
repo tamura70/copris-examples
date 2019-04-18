@@ -4,4 +4,7 @@
 * Introduction
 Example [[http://jupyter.org/][Jupyter]] notebooks of [[http://bach.istc.kobe-u.ac.jp/copris/][Copris]] running on [[https://almond.sh][Almond]] Scala kernel.
 Copris is a constraint programming DSL embedded in Scala.
-  - [[file:intro-ja.ipynb][intro-ja.ipynb]] (Japanese)
+  - [[file:notebooks/intro-ja.ipynb][notebooks/intro-ja.ipynb]] (Japanese)
+
+Jupyter notebook files (.ipynb) are exported from [[https://orgmode.org][Org-mode]] files by =ox-ipynb= macro in [[https://github.com/jkitchin/scimax][scimax]] package.
+
