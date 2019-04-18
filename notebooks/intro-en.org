@@ -1,13 +1,12 @@
-#+TITLE: Coprisによる制約プログラミング入門
-#+AUTHOR: 田村直之
+#+TITLE: Introduction to Constraint Programming in Copris
+#+AUTHOR: Naoyuki Tamura
 
-* はじめに
-Scala上の制約プログラミングシステム [[http://bach.istc.kobe-u.ac.jp/copris/][Copris]] による制約プログラミング入門．
-詳細は以下を参照．
+* Introduction
+See the following web page for the details.
 
-  - [[http://bach.istc.kobe-u.ac.jp/copris/docs/intro-ja.html][Coprisによる制約プログラミング入門]]
+  - [[http://bach.istc.kobe-u.ac.jp/copris/docs/intro-en.html][Introduction to Constraint Programming in Copris]]
 
-* 始めての利用
+* First Step
 
 #+BEGIN_SRC scala
 import $cp.^`copris-all-v2-3-1.jar`
