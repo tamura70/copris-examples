@@ -4,5 +4,4 @@
 * Introduction
 Example [[http://jupyter.org/][Jupyter]] notebooks of [[http://bach.istc.kobe-u.ac.jp/copris/][Copris]] running on [[https://almond.sh][Almond]] Scala kernel.
 Copris is a constraint programming DSL embedded in Scala.
-
-  - <a href="intro-ja.ipynb">intro-ja.ipynb</a> (Japanese)
+  - [[file:intro-ja.ipynb][intro-ja.ipynb]] (Japanese)
