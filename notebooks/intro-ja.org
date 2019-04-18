@@ -1,0 +1,44 @@
+#+TITLE: Coprisによる制約プログラミング入門
+#+AUTHOR: 田村直之
+
+* はじめに
+Scala上の制約プログラミングシステム [[http://bach.istc.kobe-u.ac.jp/copris/][Copris]] による制約プログラミング入門．
+詳細は以下を参照．
+
+  - [[http://bach.istc.kobe-u.ac.jp/copris/docs/intro-ja.html][Coprisによる制約プログラミング入門]]
+
+* 始めての利用
+
+#+BEGIN_SRC scala
+import $cp.`copris-all-v2-3-1`
+import jp.kobe_u.copris._
+import dsl._
+
+int('x, 1, 15)
+int('y, 1, 15)
+int('z, 1, 15)
+add('x + 'y + 'z === 15)
+add('x + 'y * 5 + 'z * 10 === 90)
+#+END_SRC
+
+#+BEGIN_SRC scala
+println(csp)
+println(csp.variables)
+println(csp.bools)
+println(csp.dom)
+println(csp.constraints)
+#+END_SRC
+
+#+BEGIN_SRC scala
+show
+#+END_SRC
+
+#+BEGIN_SRC scala
+find
+#+END_SRC
+
+#+BEGIN_SRC scala
+println(solution)
+#+END_SRC
+
+

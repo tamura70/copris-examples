@@ -1,0 +1,8 @@
+#+TITLE: Jupyter notebooks of Copris
+#+AUTHOR: Naoyuki Tamura
+
+* Introduction
+Example [[http://jupyter.org/][Jupyter]] notebooks of [[http://bach.istc.kobe-u.ac.jp/copris/][Copris]] running on [[https://almond.sh][Almond]] Scala kernel.
+Copris is a constraint programming DSL embedded in Scala.
+
+  - [[file:notebooks/intro-ja.ipynb]] (Japanese)
