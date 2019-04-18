@@ -9,7 +9,7 @@ See the following web page for the details.
 * First Step
 
 #+BEGIN_SRC scala
-import $cp.^`copris-all-v2-3-1.jar`
+import $cp.^.`copris-all-v2-3-1.jar`
 import jp.kobe_u.copris._
 import dsl._
 

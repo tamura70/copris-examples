@@ -10,8 +10,9 @@ SCALA_VERSION=2.12.8 ALMOND_VERSION=0.4.0
   -r jitpack \
   -i user -I user:sh.almond:scala-kernel-api_$SCALA_VERSION:$ALMOND_VERSION \
   sh.almond:scala-kernel_$SCALA_VERSION:$ALMOND_VERSION \
-  --sources --default=true \
   -o almond
+#  --sources --default=true \
+#  -o almond
 ./almond --install \
   --command "java -XX:MaxRAMPercentage=80.0 -jar almond" \
   --copy-launcher true
