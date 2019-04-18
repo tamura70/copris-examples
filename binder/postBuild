@@ -19,17 +19,17 @@ rm -f almond
 
 
 # Install almond for Scala 2.11
-SCALA_VERSION=2.11.12 ALMOND_VERSION=0.4.0
-./coursier bootstrap \
-  -r jitpack \
-  -i user -I user:sh.almond:scala-kernel-api_$SCALA_VERSION:$ALMOND_VERSION \
-  sh.almond:scala-kernel_$SCALA_VERSION:$ALMOND_VERSION \
-  --sources --default=true \
-  -o almond-scala-2.11
-./almond-scala-2.11 --install --id scala211 --display-name "Scala (2.11)" \
-  --command "java -XX:MaxRAMPercentage=80.0 -jar almond-scala-2.11 --id scala211 --display-name 'Scala (2.11)'" \
-  --copy-launcher true
-rm -f almond-scala-2.11
+# SCALA_VERSION=2.11.12 ALMOND_VERSION=0.4.0
+# ./coursier bootstrap \
+#   -r jitpack \
+#   -i user -I user:sh.almond:scala-kernel-api_$SCALA_VERSION:$ALMOND_VERSION \
+#   sh.almond:scala-kernel_$SCALA_VERSION:$ALMOND_VERSION \
+#   --sources --default=true \
+#   -o almond-scala-2.11
+# ./almond-scala-2.11 --install --id scala211 --display-name "Scala (2.11)" \
+#   --command "java -XX:MaxRAMPercentage=80.0 -jar almond-scala-2.11 --id scala211 --display-name 'Scala (2.11)'" \
+#   --copy-launcher true
+# rm -f almond-scala-2.11
 
 # Install required Jupyter/JupyterLab extensions
 jupyter labextension install @jupyterlab/plotly-extension
