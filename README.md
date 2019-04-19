@@ -44,12 +44,12 @@ Binder setup scripts are obtained from [Almond Examples](https://github.com/almo
 
 ## Org-mode
 
-Jupyter notebook files (.ipynb) are exported from [Org-mode](https://orgmode.org) files by =ox-ipynb= macro in [scimax](https://github.com/jkitchin/scimax) package.
+Jupyter notebook files (.ipynb) are exported from [Org-mode](https://orgmode.org) files by `ox-ipynb` macro in [scimax](https://github.com/jkitchin/scimax) package.
 The following is my scimax setting in `user/user.el`.
 
 ```
-(require 'ob-scala)
 (add-to-list 'load-path "~/lib/scimax/ox-ipynb")
+(require 'ob-scala)
 (require 'ox-ipynb)
 (add-to-list 'ox-ipynb-kernelspecs
 	     '(scala . (kernelspec . ((display_name . "Scala")
