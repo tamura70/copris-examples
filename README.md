@@ -10,11 +10,11 @@ Binder setup scripts are obtained from [Almond Examples](https://github.com/almo
 
 1. Visit https://github.com/tamura70/copris-examples and download ZIP file
    - You will download `copris-examples-master.zip` file.
-2. Unzip the file and rename the folder name as you like.
+2. Unzip the downloaded file and rename the folder name as you like.
    - Say `copris-test`
-3. Create your public repository on [Github](https://github.com)
-   - say `https://github.com/XXXXX/copris-test` (XXXXX is your ID)
-4. Run some commands on your machine
+3. Create your public repository on [GitHub](https://github.com)
+   - Say `https://github.com/XXXXX/copris-test` (XXXXX is your ID)
+4. Run some commands on your machine to update your GitHub repository
    ```
    cd copris-test
    git init
@@ -27,3 +27,17 @@ Binder setup scripts are obtained from [Almond Examples](https://github.com/almo
    - Access [Binder](https://mybinder.org)
    - Enter your GitHub repository name (say, `XXXXX/copris-test`)
    - Copy the URL to access your Binder site later
+   - Click "launch" button
+   - Wait for a while.  Docker image will be created.
+6. Modify/create Jupyter notebooks as you like in your browser!
+7. Download your notebooks into `copris-test` directory
+   - Otherwise, your works will disappear!
+8. Reflect your changes to the repositry
+   ```
+   git add .
+   git commit -m "Modify notebooks"
+   git push
+   ```
+9. Access your Binder site again
+   - The docker image will be recreated automatically (this will also take a time)
+   - Adding `?urlpath=lab` to the URL gives a better GUI
