@@ -44,7 +44,7 @@ Binder setup scripts are obtained from [Almond Examples](https://github.com/almo
 
 ## Org-mode
 
-Jupyter notebook files (.ipynb) are exported from [[https://orgmode.org][Org-mode]] files by =ox-ipynb= macro in [[https://github.com/jkitchin/scimax][scimax]] package.
+Jupyter notebook files (.ipynb) are exported from [Org-mode](https://orgmode.org) files by =ox-ipynb= macro in [scimax](https://github.com/jkitchin/scimax) package.
 The following is my scimax setting in `user/user.el`.
 
 ```
