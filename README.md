@@ -42,6 +42,28 @@ Binder setup scripts are obtained from [Almond Examples](https://github.com/almo
    - The docker image will be recreated automatically (this will also take a time)
    - Appending `?urlpath=lab` to the URL gives a better GUI
 
+## Org-mode
+
+Jupyter notebook files (.ipynb) are exported from [[https://orgmode.org][Org-mode]] files by =ox-ipynb= macro in [[https://github.com/jkitchin/scimax][scimax]] package.
+The following is my scimax setting in `user/user.el`.
+
+```
+(require 'ob-scala)
+(add-to-list 'load-path "~/lib/scimax/ox-ipynb")
+(require 'ox-ipynb)
+(add-to-list 'ox-ipynb-kernelspecs
+	     '(scala . (kernelspec . ((display_name . "Scala")
+				      (language . "scala")
+				      (name . "scala")))))
+(add-to-list 'ox-ipynb-language-infos
+	     '(scala  . (language_info . ((codemirror_mode . "text/x-scala")
+					  (file_extension . ".scala")
+					  (mimetype . "text/x-scala")
+					  (name . "scala")
+					  (nbconvert_exporter . "script")
+					  (version . "2.12.8")))))
+```
+
 ## Credits/Links
 
 - [Scala](https://www.scala-lang.org)

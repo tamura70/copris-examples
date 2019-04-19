@@ -8,4 +8,4 @@ This page provides some example [[http://jupyter.org/][Jupyter]] notebooks of [[
   - [[file:notebooks/intro-en.ipynb][notebooks/intro-en.ipynb]] (English)
   - [[file:notebooks/intro-ja.ipynb][notebooks/intro-ja.ipynb]] (Japanese)
 
-Jupyter notebook files (.ipynb) are exported from [[https://orgmode.org][Org-mode]] files by =ox-ipynb= macro in [[https://github.com/jkitchin/scimax][scimax]] package.
+Original GitHub site is https://github.com/tamura70/copris-examples
