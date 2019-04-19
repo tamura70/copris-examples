@@ -18,7 +18,6 @@ SCALA_VERSION=2.12.8 ALMOND_VERSION=0.4.0
   --copy-launcher true
 rm -f almond
 
-
 # Install almond for Scala 2.11
 # SCALA_VERSION=2.11.12 ALMOND_VERSION=0.4.0
 # ./coursier bootstrap \
