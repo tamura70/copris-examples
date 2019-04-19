@@ -30,7 +30,6 @@ Binder setup scripts are obtained from [Almond Examples](https://github.com/almo
    - Click "launch" button
    - Wait for a while.  Your browser will be redirected after the docker image is created.
 6. Modify/create Jupyter notebooks as you like in your browser!
-   - You can bookmark the Web page to access it later.  The docker image will be kept at least for 12 hours.
 7. Download your notebooks into `copris-test` directory
    - Otherwise, your work will disappear in vain!
 8. Reflect your changes to the repositry
