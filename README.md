@@ -24,14 +24,15 @@ Binder setup scripts are obtained from [Almond Examples](https://github.com/almo
    git push -u origin master
    ```
 5. Create your Binder site
-   - Access [Binder](https://mybinder.org)
+   - Access [Binder](https://mybinder.org) with Firefox or Chrome
    - Enter your GitHub repository name (say, `XXXXX/copris-test`)
    - Copy the URL to access your Binder site later
    - Click "launch" button
-   - Wait for a while.  Docker image will be created.
+   - Wait for a while.  Your browser will be redirected after the docker image is created.
 6. Modify/create Jupyter notebooks as you like in your browser!
+   - You can bookmark the Web page to access it later.  The docker image will be kept at least for 12 hours.
 7. Download your notebooks into `copris-test` directory
-   - Otherwise, your works will disappear!
+   - Otherwise, your work will disappear in vain!
 8. Reflect your changes to the repositry
    ```
    git add .
