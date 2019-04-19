@@ -40,4 +40,14 @@ Binder setup scripts are obtained from [Almond Examples](https://github.com/almo
    ```
 9. Access your Binder site again
    - The docker image will be recreated automatically (this will also take a time)
-   - Adding `?urlpath=lab` to the URL gives a better GUI
+   - Appending `?urlpath=lab` to the URL gives a better GUI
+
+## Credits/Links
+
+- [Scala](https://www.scala-lang.org)
+- [Sat4j](https://sat4j.org)
+- [Jupyter](http://jupyter.org/)
+- [Almond](https://almond.sh)
+- [Binder](https://mybinder.org)
+- [Copris](http://bach.istc.kobe-u.ac.jp/copris/)
+- [Sugar](http://bach.istc.kobe-u.ac.jp/sugar/)
