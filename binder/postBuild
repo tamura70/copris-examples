@@ -16,9 +16,9 @@ SCALA_VERSION=2.12.8 ALMOND_VERSION=0.4.0
 #  --sources --default=true \
 #  -o almond
 ./almond --install \
-  --command "java -XX:MaxRAMPercentage=80.0 -cp $HOME/binder/lib/'*':$HOME/classes -jar almond" \
+  --command "java -XX:MaxRAMPercentage=80.0 -cp $HOME/binder/lib/copris-all-v2-3-1.jar -jar almond" \
   --copy-launcher true
-# rm -f almond
+ rm -f almond
 
 # Install almond for Scala 2.11
 # SCALA_VERSION=2.11.12 ALMOND_VERSION=0.4.0
