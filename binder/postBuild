@@ -16,9 +16,8 @@ SCALA_VERSION=2.12.8 ALMOND_VERSION=0.4.0
 #  --sources --default=true \
 #  -o almond
 ./almond --install \
-  --command "/home/jovyan/binder/launcher.sh"
-#  --command "java -XX:MaxRAMPercentage=80.0 -jar almond" \
-#  --copy-launcher true
+  --command "java -XX:MaxRAMPercentage=80.0 -jar almond -cp /home/jovyan/binder/lib/\"*\"" \
+  --copy-launcher true
 rm -f almond
 
 # Install almond for Scala 2.11
