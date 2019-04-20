@@ -1,6 +1,6 @@
 #!/bin/bash
 
-chmod +x ~/binder/launcher.sh
+chmod +x $HOME/binder/launcher.sh
 
 # Install coursier
 curl -L -o coursier https://git.io/coursier-cli
@@ -16,8 +16,8 @@ SCALA_VERSION=2.12.8 ALMOND_VERSION=0.4.0
 #  --sources --default=true \
 #  -o almond
 ./almond --install \
-  --command "java -XX:MaxRAMPercentage=80.0 -cp /home/jovyan/lib/\"*\":/home/jovyan/classes -jar almond"
-#  --copy-launcher true
+  --command "$HOME/binder/laucher.sh -jar almond" \
+  --copy-launcher true
 rm -f almond
 
 # Install almond for Scala 2.11
