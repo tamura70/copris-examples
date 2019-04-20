@@ -14,9 +14,11 @@ SCALA_VERSION=2.12.8 ALMOND_VERSION=0.4.0
 #  --sources --default=true \
 #  -o almond
 ./almond --install \
-  --command "java -XX:MaxRAMPercentage=80.0 -jar almond" \
+  --command "launcher.sh" \
   --copy-launcher true
 rm -f almond
+
+chmod +x ~/binder/launcher.sh
 
 # Install almond for Scala 2.11
 # SCALA_VERSION=2.11.12 ALMOND_VERSION=0.4.0

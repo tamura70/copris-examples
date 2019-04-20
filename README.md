@@ -4,9 +4,9 @@ Example [Jupyter](http://jupyter.org/) notebooks of [Copris](http://bach.istc.ko
 
 You can [run them on Binder](https://mybinder.org/v2/gh/tamura70/copris-examples/master?urlpath=lab/tree/index.ipynb).
 
-Binder setup scripts are obtained from [Almond Examples](https://github.com/almond-sh/examples) site.
-
 ## How to create your own Binder site
+
+Binder setup scripts are obtained from [Almond Examples](https://github.com/almond-sh/examples) site.
 
 1. Visit https://github.com/tamura70/copris-examples and download ZIP file
    - You will download `copris-examples-master.zip` file.
